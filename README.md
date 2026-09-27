@@ -6,7 +6,7 @@ This project was completed as an individual university assignment for a **Data S
 
 The analysis uses data from **FrogID5**, a dataset documenting frog sightings across Australia (Raw data is not included in this repository due to its size).
 
-The analysis focuses on relevant variables such as (`data/frogID5_data_info.md`):
+The analysis focuses on relevant variables such as ([view metadata analysis](data/frogID5_data_info.md)):
 
 * Species
 * Date and time of observation
@@ -20,7 +20,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7040047/
 
 ## Data Preparation
 
-The data was cleaned and prepared using **Python and pandas** (`notebooks/Preparing_FrogID5_data.ipynb`). This included:
+The data was cleaned and prepared using **Python and pandas** [`view data preparation`](notebooks/Preparing_FrogID5_data.ipynb). This included:
 
 * Selecting relevant variables from the original dataset
 * Adding vernacular (common) species names
@@ -38,7 +38,7 @@ The final analysis explores:
 
 The complete analysis and visualisations can be found in:
 
-`notebooks/all_files_in_one.ipynb`
+[`notebooks/all_files_in_one.ipynb`](notebooks/all_files_in_one.ipynb)
 
 ## Technologies
 
