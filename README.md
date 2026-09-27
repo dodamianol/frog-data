@@ -20,7 +20,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7040047/
 
 ## Data Preparation
 
-The data was cleaned and prepared using **Python and pandas** [`view data preparation`](notebooks/Preparing_FrogID5_data.ipynb). This included:
+The data was cleaned and prepared using **Python and pandas** ([`view data preparation`](notebooks/Preparing_FrogID5_data.ipynb)). This included:
 
 * Selecting relevant variables from the original dataset
 * Adding vernacular (common) species names
