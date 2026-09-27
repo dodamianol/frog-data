@@ -1,0 +1,71 @@
+
+
+## COLUMNS
+- gbifID                            X
+- datasetKey                            X -> some random string         (47c9fee2-619a-481c-a114-386bc4748256)
+- occurenceID                           X -> some random string         (19540edd-fa68-40e3-90a0-ffcf5a04c35a)
+- kingdom                               X -> all the same               (Animalia)
+- pylum                                 X -> all the same               (Chordata)
+- class                                 X -> all the same               (Amphibia)
+- order                                 X -> all the same               (Anura)
+- family                            X
+- genus                             X
+- species                           X
+- infraspecificEpithet                  X -> all the same               ()
+- taxonRank                             X -> all the same               (SPECIES)
+- scientificName                      XXX -> same as species            (Crinia signifera Girard, 1853)
+- verbatimScientificName                X -> same as species            (Crinia signifera)
+- verbatimScientificNameAuthorship      X -> irrelevant                 (Peters, 1863)
+- countryCode                           X -> all the same               (AU)
+- locality                              X -> all the same               ()
+- stateProvince                     X
+- occurenceStatus                       X -> all the same               (PRESENT)
+- individualCount                       X -> all the same               ()
+- publishingOrgKey                      X -> some random string         (770c30d2-c2a8-4bb2-8056-6167297cddae)
+- decimalLatitude                   X
+- decimalLongitude                  X
+- coordinateUncertaintyInMeters       X
+- coordinatePrecision                   X -> all the same               ()
+- elevation                             X -> all the same               ()
+- elevationAccuracy                     X -> all the same               ()
+- depth                                 X -> all the same               ()
+- depthAccuracy                         X -> all the same               ()
+- eventDate                         X
+- day                               X
+- month                             X
+- year                              X
+- taxonKey                          X
+- speciesKey                        X
+- basisOfRecord                         X -> all the same               (OCCURENCE)
+- institutionCode                       X -> all the same               ()
+- collectionCode                        X -> all the same               ()
+- catalogNumber                         X -> all the same               ()
+- recordNumber                          X -> all the same               ()
+- identifiedBy                          X -> all the same               ()
+- dateIdentified                        X -> all the same               ()
+- license                               X -> all the same               (CC_BY_NC_4_0)
+- rightsHolder                          X -> all the same               ()
+- recordedBy                        X
+- typeStatus                            X -> all the same               ()
+- establishmentMeans                    X -> all the same               ()
+- lastInterpreteted                   XXX -> irrelevant
+- mediaType                             X -> all the same               ()
+- issue                                 X -> all the same               (CONTINENT_DERIVED_FROM_COORDINATES;AXON_MATCH_TAXON_CONCEPT_ID_IGNORED)
+
+
+
+## NECESSARY COLUMS
+- gbifID
+- family
+- genus
+- species
+- stateProvince
+- decimalLatitude
+- decimalLongitude
+- coordinateUncertaintyInMeters
+- eventDate
+- day
+- month
+- year
+- taxonKey
+- recordedBy
